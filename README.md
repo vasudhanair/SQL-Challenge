@@ -3,14 +3,9 @@ This folder has a sql file of my table schemata(Schema-Table.sql), a sql file of
 an image file of my ERD(ERD-diagram).
 ## Data Modeling/Data Engineering
 I inspected the CSVs and sketched out an ERD of the tables. I used the tool [http://www.quickdatabasediagrams.com]
-The tables were created and the CSV files were imported
-DROP TABLE IF EXISTS departments;
-DROP TABLE IF EXISTS employees;
-DROP TABLE IF EXISTS dept_emp;
-DROP TABLE IF EXISTS dept_manager;
-DROP TABLE IF EXISTS salaries;
-DROP TABLE IF EXISTS titles;
+The tables were created and the CSV files were imported. Before the tables were created the following was done.
 
+Code in the Schema-Table.sql
 -- Create a departments table
 -- Create an employees table
 -- Create an dept_emp table 
@@ -18,7 +13,7 @@ DROP TABLE IF EXISTS titles;
 -- Create an salaries table
 -- Create an titles table
 
-After importing the CSVs, view the tables using
+After importing the CSVs, the tables were viewed using
 SELECT * FROM departments;
 SELECT * FROM employees;
 SELECT * FROM dept_emp;
