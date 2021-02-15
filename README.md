@@ -1,7 +1,10 @@
-# SQL-Challenge
+# SQL-Employee-Database
+
 This folder has a sql file of my table schemata(Schema-Table.sql), a sql file of my queries(queries.sql), 
 an image file of my ERD(ERD-diagram).
+
 ## Data Modeling/Data Engineering
+
 I inspected the CSVs and sketched out an ERD of the tables. I used the tool [http://www.quickdatabasediagrams.com]
 The tables were created and the CSV files were imported. Before the tables were created the following was done.
 
