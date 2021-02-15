@@ -24,5 +24,5 @@ SELECT * FROM dept_manager;
 SELECT * FROM salaries;
 SELECT * FROM titles;
 
-### Data Analysis
+## Data Analysis
 Data Analysis was done and the script is saved in the queries.sql file.
